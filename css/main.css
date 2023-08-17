@@ -1,4 +1,119 @@
-body{
-    background: limegreen;
-    color:azure;
-}
+*{
+    cursor:url(https://res.cloudinary.com/dpwnji5mr/image/upload/v1691020776/landing/guitarra_mycev1.png),pointer;
+  }
+  body{
+    font-family:sans-serif;
+    font-size:20px;
+    margin-left:12px;
+    margin:0px;
+    background:rgb(10,10,10);
+  }
+  #menu{
+    position:sticky;
+    top:0px;
+    display:flex;
+    background-color:yellow;
+    height:40px;
+    padding:10px;
+    align-items:center;
+  }
+  #suscripcion{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#fb8b37;
+    height:150px;
+  }
+  #formulario{
+    height:90px;
+    width:250px;
+    border:1px solid black;
+    text-align:center;
+    box-sizing:content-box;
+    padding-top:30px;
+  }
+  .item{
+    margin-left:20px;
+    color:black;
+    text-decoration:none;
+    /*background-color:blue;*/
+  }
+  .item:hover{
+    color:darkorange;
+  }
+  .parrafo h1{
+    margin-top:10px;
+    color:yellow;
+  }
+  .parrafo {
+    color:white;
+  }
+  #banner{
+    text-align:center;
+    margin-bottom:50px;
+  }
+  
+  /* Footer */
+  
+  body{
+    background:black;
+  }
+  footer{ background-image:url(https://res.cloudinary.com/dpwnji5mr/image/upload/v1691197403/pata_konrad_djxiyp.jpg);
+    width:100%;
+    height:260px;
+    background-size:cover;
+  }
+  
+  .gridlayout {
+    display: grid;
+  grid-template-columns: .5fr 1fr repeat(4, .6fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;  
+    color:white;
+    background:black;
+  }
+  .titulo2{
+    font-size:12px;
+    font-weight:900;
+  }
+  .lista{
+    padding-left:20px;
+    list-style:none;
+    font-size:12px;
+  }
+  div{
+    font-family:sans-serif;
+    box-sizing:border-box;
+    /*border:1px solid yellow;*/
+  }
+  .div1 { grid-area: 1 / 1 / 2 / 2; }
+  .div2 { grid-area: 1 / 3 / 3 / 4; }
+  .div3 { grid-area: 1 / 4 / 3 / 5; }
+  .div4 { grid-area: 1 / 5 / 3 / 6; }
+  .div5 { grid-area: 1 / 6 / 3 / 7; }
+  .div6 { 
+    font-size:14px;
+    grid-area: 1 / 2 / 3 / 3; 
+  }
+  .div7 { 
+    box-sizing:content-box;
+    padding-top:50px;
+    grid-area: 3 / 1 / 4 / 7; 
+  }
+  .div8 { 
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    grid-area: 4 / 5 / 5 / 7; 
+    padding-left:120px;
+  }
+  .div9 { 
+    font-size:10px;
+    grid-area: 4 / 1 / 5 / 3; 
+  }
+  .div10 { grid-area: 1 / 1 / 2 / 2; } 
+  
+  .ocultar{
+    display:none;
+  }
